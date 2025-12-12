@@ -4,9 +4,9 @@
 # Usage: ./script.sh [apply|delete] [force]
 ACTION=${1:-apply}
 FORCE=${2:-}
-DOCKERHUB_USERNAME="taloc"
-DOCKERHUB_PASSWORD="Andy@011002"
-DOCKERHUB_EMAIL="ta.loc1@gmail.com"
+DOCKERHUB_USERNAME="neronguyen"
+DOCKERHUB_PASSWORD="trongnhan1412"
+DOCKERHUB_EMAIL="ngtrnhan2204@gmail.com"
 NAMESPACE="default"
 
 if [[ "$ACTION" == "apply" ]]; then

@@ -27,7 +27,7 @@ spec:
 
       containers:
         - name: backend-api
-          image: taloc/dotnet:withoutnewrelic
+          image: neronguyen/dotnet:withoutnewrelic
           imagePullPolicy: IfNotPresent
           ports:
             - name: app
